@@ -249,6 +249,7 @@ figcaption{
   object-position: left 50%;
 }
 
+
 .gallery1-2{
   --gap:1rem;
   --num-cols:2;
@@ -338,6 +339,8 @@ figcaption{
     --row-height:150px;
   }
 }
+
+
 
 .footer{
   grid-row-start:5;
