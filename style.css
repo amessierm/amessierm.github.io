@@ -200,6 +200,41 @@ figcaption{
   margin-bottom:1rem;
 }
 
+.inline-ul{
+  list-style-type: circle;
+  margin-left:2rem;
+}
+
+.inline-table, th, td{
+  border:1px solid black;
+  border-collapse: collapse;
+}
+
+.inline-table td{
+  vertical-align:top;
+  padding:5px;
+  text-align: center;
+}
+
+.inline-table th{
+  background-color:rgba(255, 239, 213, 0.315);
+}
+
+.bold-span{
+  font-weight: bold;
+}
+
+.indented-paragraph{
+  text-indent:1rem;
+  margin-top:10px;
+}
+
+.inline-square-box{
+  border:solid 2px rgb(2, 0, 99);
+  border-radius:7px;
+  padding:10px;
+  box-shadow: 10px 10px 2px bisque;
+}
 .paysage{
   display:grid;
   grid-template-columns: 1fr;
